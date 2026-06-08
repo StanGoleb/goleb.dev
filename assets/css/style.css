@@ -1,0 +1,11 @@
+@import "{{ site.theme }}";
+
+body {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.07) 2px, transparent 2px);
+    background-size: 30px 30px;
+    animation: slideBackground 15s linear infinite;
+}
+
+@keyframes slideBackground {
+    from {background-position: 0 0;} to {background-position: 300px -300px;}
+}
