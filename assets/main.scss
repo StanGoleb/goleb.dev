@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 html, body {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.6) 2px, transparent 2px) !important;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.2) 2px, transparent 2px) !important;
     background-size: 30px 30px;
     animation: slideBackground 15s linear infinite;
 }
